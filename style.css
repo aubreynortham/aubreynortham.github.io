@@ -1,0 +1,48 @@
+
+  /*font-family: 'Lato', sans-serif;*/
+  /*font-family: 'Montserrat', sans-serif;*/
+
+
+.section {
+    font-size: 5em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+    background-size: cover;
+}
+#seaSection {
+  background-image: url(http://i.imgur.com/Hb5gTSq.jpg);
+}
+#myMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 70px;
+  z-index: 70;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+    background: rgba(210, 50, 1, 0.6); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient( rgba(210, 50, 1, 0.6), rgba(210, 76, 1, 0) ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient( rgba(210, 50, 1, 0.6), rgba(210, 76, 1, 0) ); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient( rgba(210, 50, 1, 0.6), rgba(210, 76, 1, 0) ); /* For Firefox 3.6 to 15 */
+    background: linear-gradient( rgba(210, 50, 1, 0.6), rgba(210, 76, 1, 0) ); /* Standard syntax */
+}
+ul {
+  font-family: 'Montserrat', sans-serif;
+  list-style: none;
+  display: block;
+  text-decoration: none;
+}
+#myMenu li {
+  display: inline-block;
+  margin: 10px;
+}
+#myMenu a {
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+}
+#myMenu li.active a {
+  color: white;
+  text-transform: uppercase;
+}

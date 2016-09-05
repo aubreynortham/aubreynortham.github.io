@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Aubrey Northam</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.6/jquery.fullPage.css" />
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.6/jquery.fullPage.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+</head>
+
+<body>
+
+  <ul id="myMenu">
+    <li data-menuanchor="welcome" class="active"><a href="#welcome">AN</a></li>
+    <li data-menuanchor="about"><a href="#about">About</a></li>
+    <li data-menuanchor="projects"><a href="#projects">Projects</a></li>
+    <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
+  </ul>
+
+  <div id="fullpage">
+    <div class="section" data-menuanchor="welcome" id="seaSection">Section welcome</div>
+    <div class="section" data-menuanchor="about">Section About me</div>
+    <div class="section" data-menuanchor="projects">
+      <div class="slide" data-anchor="intro">Projects Slide Intro</div>
+      <div class="slide" data-anchor="project1name">Projects Slide 1</div>
+      <div class="slide" data-anchor="project2name">Projects Slide 2</div>
+      <div class="slide" data-anchor="project3name">Projects Slide 3</div>
+    </div>
+    <div class="section" data-menuanchor="contact">Section Contact</div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
