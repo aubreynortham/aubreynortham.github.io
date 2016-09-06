@@ -4,7 +4,7 @@
 
 
 .section {
-    font-size: 5em;
+    font-size: 3em;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: white;
@@ -12,6 +12,64 @@
 }
 #seaSection {
   background-image: url(http://i.imgur.com/Hb5gTSq.jpg);
+}
+#wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+#highlight {
+  color: rgb(56, 81, 98);
+  /*text-shadow: .25px .5px .2px rgba(255, 255, 255, 0.7);*/
+}
+#icongroup {
+  position: absolute;
+  bottom: 10px;
+  width: 95%;
+  margin: 0 auto;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+}
+#dopeIcons {
+  max-height: 100px;
+  margin: 20px;
+}
+.roundone {
+  animation: fadeIn 3s infinite alternate;
+}
+.roundtwo {
+  animation: fadeIn 3s infinite alternate;
+}
+.roundthree {
+  animation: fadeIn 3s infinite alternate;
+}
+.roundfour {
+  animation: fadeIn 3s infinite alternate;
+}
+.roundfive {
+  animation: fadeIn 3s infinite alternate;
+}
+.roundsix {
+  animation: fadeIn 3s infinite alternate;
+}
+.roundseven {
+  animation: fadeIn 3s infinite alternate;
+}
+.roundeight {
+  animation: fadeIn 3s infinite alternate;
+}
+h5 {
+  font-size: .4em;
+  letter-spacing: .15em;
+}
+#vis75 {
+  opacity: .75;
+}
+#vis50 {
+  opacity: .5;
+}
+#vis25 {
+  opacity: .2;
 }
 #myMenu {
   position: fixed;
@@ -30,6 +88,7 @@
 }
 ul {
   font-family: 'Montserrat', sans-serif;
+  letter-spacing: .2em;
   list-style: none;
   display: block;
   text-decoration: none;
@@ -37,6 +96,7 @@ ul {
 #myMenu li {
   display: inline-block;
   margin: 10px;
+  padding: 0 0 0 10px;
 }
 #myMenu a {
   text-decoration: none;
