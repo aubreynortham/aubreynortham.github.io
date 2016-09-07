@@ -6,6 +6,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.6/jquery.fullPage.css" />
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.6/jquery.fullPage.js"></script>
+  <script src="https://use.fontawesome.com/8c729369f0.js"></script>
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
 </head>
@@ -21,30 +22,67 @@
 
   <div id="fullpage">
     <div class="section" data-menuanchor="welcome" id="seaSection">
-    <div id="wrapper">
-      <h1>I'm Aubrey.<span id="vis75">.</span><span id="vis50">.</span><span id="vis25">.</span></h1>
-      <h5>Web developer, graphic designer, decent person.<br><span id="highlight">These are a few of my favorite things.</span></h5>
-    </div>
-    <div id="icongroup">
-      <img id="dopeIcons" class="roundthree" src="http://i.imgur.com/OI7cNDM.png" alt="puzzles">
-      <img id="dopeIcons" class="roundsix" src="http://i.imgur.com/x3sP45X.png" alt="cats">
-      <img id="dopeIcons" class="roundeight" src="http://i.imgur.com/KVdiqTi.png" alt="rowing">
-      <img id="dopeIcons" class="roundfive" src="http://i.imgur.com/fMg2aJF.png" alt="drawing">
-      <img id="dopeIcons" class="roundone" src="http://i.imgur.com/VapCv33.png" alt="growing things">
-      <img id="dopeIcons" class="roundfour" src="http://i.imgur.com/95UUu3a.png" alt="reading">
-      <img id="dopeIcons" class="roundseven" src="http://i.imgur.com/UG2vM94.png" alt="pizza">
-      <img id="dopeIcons" class="roundtwo" src="http://i.imgur.com/ayFkCix.png" alt="green living">
-    </div>
+      <div id="wrapper">
+        <h1>I'm Aubrey.<span id="vis75">.</span><span id="vis50">.</span><span id="vis25">.</span></h1>
+        <h5>Web developer, graphic designer, decent person.<br><span id="highlight">These are a few of my favorite things: </span><span id="altFaves"> puzzles.</span></h5>
+      </div>
+      <div id="icongroup">
+        <img id="dopeIcons" class="puz" src="http://i.imgur.com/OI7cNDM.png" alt="puzzles">
+        <img id="dopeIcons" class="cat" src="http://i.imgur.com/x3sP45X.png" alt="cats">
+        <img id="dopeIcons" class="row" src="http://i.imgur.com/KVdiqTi.png" alt="rowing">
+        <img id="dopeIcons" class="draw" src="http://i.imgur.com/fMg2aJF.png" alt="drawing">
+        <img id="dopeIcons" class="can" src="http://i.imgur.com/VapCv33.png" alt="growing things">
+        <img id="dopeIcons" class="book" src="http://i.imgur.com/95UUu3a.png" alt="reading">
+        <img id="dopeIcons" class="piz" src="http://i.imgur.com/UG2vM94.png" alt="pizza">
+        <img id="dopeIcons" class="bulb" src="http://i.imgur.com/ayFkCix.png" alt="green living">
+      </div>
       <!-- <img class="logo" src="http://i.imgur.com/4f2muzu.png" alt="Aubrey Northam"> -->
     </div>
-    <div class="section" data-menuanchor="about">Section About me</div>
+    <div class="section" data-menuanchor="about">
+      <h1>Nice to meet you.</h1>
+      <div id="aboutBody">
+        <div id="columnContainer">
+          <p id="column1">After growing up in Virginia Beach, I attended the University of Virginia where I concentrated on media theory as well as classical and digital studio art. My next chapter brought me to Norfolk where I <span id="sky">joined the marketing world as a graphic designer</span>, acquired an appreciation for Victorian architecture, and started a modest collection of cats.</p>
+          <p id="column2">The more I designed for digital platforms, the more I wanted to understand how the gears were turning. As I <span id="sky">learned how developers brought my designs to life</span>, I was hooked. I enrolled in General Assembly's Web Development Immersive program where I learned the basics of full stack programming and fell in love with front end development. <span id="sky">The rest is history.</span></p>
+        </div>
+      </div>
+      <h5 id="clearColumns"><a href="#contact">Want to be part of my next chapter?</a></h5>
+    </div>
     <div class="section" data-menuanchor="projects">
-      <div class="slide" data-anchor="intro">Projects Slide Intro</div>
+      <div class="slide" data-anchor="intro">
+        <div id="wrapper">
+          <h2> < Form >  meets function( );</h2>
+          <p>All syntax aside… what I love most about web development is the magic of taking your vision for a project and rendering every last pixel in its perfect place. When I start a new project, form comes naturally first: the functionality is always defined by the anticipated user experience. <span id="sky">With the user always in mind</span>, I'm drawn towards building applications that simplify technology and improve people's lives.</p>
+        </div>
+      </div>
       <div class="slide" data-anchor="project1name">Projects Slide 1</div>
       <div class="slide" data-anchor="project2name">Projects Slide 2</div>
       <div class="slide" data-anchor="project3name">Projects Slide 3</div>
     </div>
-    <div class="section" data-menuanchor="contact">Section Contact</div>
+    <div class="section" data-menuanchor="contact">
+      <h1>Let's keep in touch.</h1>
+      <p>I'd love to hear from you! Feel free to shoot me an email or check out more about my experience below. </p>
+      <div class="contactIcons">
+        <a href="mailto:aenortham@gmail.com?subject=You're hired!">
+          <span class="fa-stack fa-2x">
+            <i class="fa fa-circle-thin fa-stack-2x"></i>
+            <i class="fa fa-envelope-o fa-stack-1x"></i>
+          </span>
+        </a>
+        <a href="https://www.linkedin.com/in/aubreynortham">
+          <span class="fa-stack fa-2x">
+            <i class="fa fa-circle-thin fa-stack-2x"></i>
+            <i class="fa fa-linkedin fa-stack-1x"></i>
+          </span>
+        </a>
+        <a href="https://github.com/aubreynortham">
+          <span class="fa-stack fa-2x">
+            <i class="fa fa-circle-thin fa-stack-2x"></i>
+            <i class="fa fa-github fa-stack-1x"></i>
+          </span>
+        </a>
+      </div>
+    </div>
   </div>
   <script src="script.js"></script>
 </body>

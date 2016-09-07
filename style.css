@@ -27,36 +27,22 @@
   width: 95%;
   margin: 0 auto;
 }
-@keyframes fadeIn {
-  from { opacity: 0; }
-}
 #dopeIcons {
-  max-height: 100px;
-  margin: 20px;
+  max-height: 80px;
+  margin: 15px;
+  opacity: 1;
+  transition: opacity 1.5s ease-in-out;
+  -moz-transition: opacity 1.5s ease-in-out;
+  -webkit-transition: opacity 1.5s ease-in-out;
 }
-.roundone {
-  animation: fadeIn 3s infinite alternate;
+#dopeIcons:hover {
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+  -moz-transition: opacity 1.5s ease-in-out;
+  -webkit-transition: opacity 1.5s ease-in-out;
 }
-.roundtwo {
-  animation: fadeIn 3s infinite alternate;
-}
-.roundthree {
-  animation: fadeIn 3s infinite alternate;
-}
-.roundfour {
-  animation: fadeIn 3s infinite alternate;
-}
-.roundfive {
-  animation: fadeIn 3s infinite alternate;
-}
-.roundsix {
-  animation: fadeIn 3s infinite alternate;
-}
-.roundseven {
-  animation: fadeIn 3s infinite alternate;
-}
-.roundeight {
-  animation: fadeIn 3s infinite alternate;
+#altFaves {
+  display: none;
 }
 h5 {
   font-size: .4em;
@@ -105,4 +91,73 @@ ul {
 #myMenu li.active a {
   color: white;
   text-transform: uppercase;
+}
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: .4em;
+  line-height: 1.5em;
+  letter-spacing: .08em;
+}
+#sky {
+  color: rgb(40, 219, 255);
+}
+#aboutBody {
+  text-align: left;
+    clear: left;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+}
+#columnContainer {
+  float: left;
+    width: 100%;
+    position: relative;
+    right: 50%;
+    border-right: 3px solid rgb(40, 219, 255);
+}
+#column1 {
+  float: left;
+    width: 46%;
+    position: relative;
+    left: 52%;
+    overflow: hidden;
+}
+#column2 {
+  float: left;
+    width: 46%;
+    position: relative;
+    left: 56%;
+    overflow: hidden;
+}
+#clearColumns a {
+  clear: both;
+  float: left;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  letter-spacing: .1em;
+  font-size: 1.5em;
+  margin: 40px 0 0 0;
+}
+.contactIcons a {
+  transition: text-shadow 1s ease;
+  transition: color 1s ease;
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+}
+.contactIcons a:hover {
+  color: white;
+  text-shadow: 7px 7px 10px rgb(203, 43, 0);
+}
+.fa-stack {
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+    margin: 0 20px;
+}
+.fa-2x {
+    font-size: 1em;
 }
