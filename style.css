@@ -104,6 +104,10 @@ p {
 #orange {
   color: rgb(207, 64, 26);
 }
+#slate, #slate a {
+  color: rgb(42, 42, 42);
+  text-decoration: none;
+}
 #aboutBody {
   text-align: left;
     clear: left;
@@ -163,4 +167,13 @@ p {
 }
 .fa-2x {
     font-size: 1em;
+}
+.laptop {
+  width: 40%;
+  float: left;
+  margin: 0px 40px 20px 0px;
+}
+.projectBody {
+  text-align: left;
+  font-size: .35em;
 }
