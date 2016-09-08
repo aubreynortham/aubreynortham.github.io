@@ -13,7 +13,7 @@ $(document).ready(function() {
     slidesNavPosition: 'bottom',
 
 
-    //colors
+    //background colors
     sectionsColor: ['#d24c01', '#d24c01', '#d27f01', '#ec3333']
   });
 
@@ -50,7 +50,5 @@ $(document).ready(function() {
     $("#altFaves").html(" going green.");
     $("#altFaves").toggle("slow");
   });
-
-
 
 });
