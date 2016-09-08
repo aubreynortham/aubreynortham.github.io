@@ -256,6 +256,15 @@ p {
     width: 0;
     border-width: 20px 0 20px 15px;
   }
+  .fa-stack {
+    width: 1.75em;
+    height: 1em;
+    line-height: 2em;
+    margin: 0 10px;
+  }
+  .fa-2x {
+    font-size: .5em;
+  }
 }
 /* ---------------------------------------- */
 
@@ -332,5 +341,14 @@ p {
   .fp-controlArrow.fp-next {
     width: 0;
     border-width: 20px 0 20px 15px;
+  }
+  .fa-stack {
+    width: 1.75em;
+    height: 1em;
+    line-height: 2em;
+    margin: 0 10px;
+  }
+  .fa-2x {
+    font-size: .5em;
   }
 }
