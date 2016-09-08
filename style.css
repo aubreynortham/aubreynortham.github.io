@@ -253,14 +253,14 @@ p {
 
 @media only screen and (max-device-width: 900px) {
   #dopeIcons {
-    max-height: 3em;
-    margin: .5em;
+    max-height: 1em;
+    margin: .2em;
   }
   h1 {
-    font-size: 1.5em;
+    font-size: .8em;
   }
   h5 {
-    font-size: 1em;
+    font-size: .5em;
     margin: 0px;
   }
   p {
