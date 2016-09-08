@@ -260,18 +260,18 @@ p {
     font-size: .8em;
   }
   h5 {
-    font-size: .5em;
+    font-size: .2em;
     margin: 0px;
   }
   p {
-    font-size: .9em;
+    font-size: .2em;
     text-align: left;
   }
   p.centered {
     text-align: center;
   }
   #myMenu {
-    height: 11em;
+    height: 5em;
   }
   #myMenu a {
     font-size: .7em;
@@ -280,14 +280,14 @@ p {
     margin: .1em;
   }
   #clearColumns a {
-    font-size: 1em;
+    font-size: .25em;
     padding: 0px;
     margin: 0px;
     text-decoration: underline;
   }
   #aboutBody {
     text-align: left;
-    font-size: .8em;
+    font-size: .15em;
     clear: none;
     float: none;
     width: 80%;
@@ -301,7 +301,7 @@ p {
     float: none;
     width: 100%;
     padding: 0 0 30px 0;
-    border-bottom: 3px solid rgb(40, 219, 255);
+    border-bottom: 2px solid rgb(40, 219, 255);
   }
   #column2 {
     float: none;
@@ -314,6 +314,6 @@ p {
     margin: 0 auto;
   }
   .projectBody {
-    font-size: .65em;
+    font-size: .15em;
   }
 }
