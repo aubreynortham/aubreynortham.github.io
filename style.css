@@ -1,14 +1,14 @@
 
-  /*font-family: 'Lato', sans-serif;*/
-  /*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Lato', sans-serif;*/
+/*font-family: 'Montserrat', sans-serif;*/
 
 
 .section {
-    font-size: 3em;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    color: white;
-    background-size: cover;
+  font-size: 3em;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: white;
+  background-size: cover;
 }
 #seaSection {
   background-image: url(http://i.imgur.com/Hb5gTSq.jpg);
@@ -66,11 +66,11 @@ h5 {
   width: 100%;
   padding: 0;
   margin: 0;
-    background: rgba(210, 50, 1, 0.6); /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient( rgba(210, 50, 1, 0.6), rgba(210, 76, 1, 0) ); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient( rgba(210, 50, 1, 0.6), rgba(210, 76, 1, 0) ); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient( rgba(210, 50, 1, 0.6), rgba(210, 76, 1, 0) ); /* For Firefox 3.6 to 15 */
-    background: linear-gradient( rgba(210, 50, 1, 0.6), rgba(210, 76, 1, 0) ); /* Standard syntax */
+  background: rgba(210, 50, 1, 0.6); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient( rgba(210, 50, 1, 0.6), rgba(210, 76, 1, 0) ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient( rgba(210, 50, 1, 0.6), rgba(210, 76, 1, 0) ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient( rgba(210, 50, 1, 0.6), rgba(210, 76, 1, 0) ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient( rgba(210, 50, 1, 0.6), rgba(210, 76, 1, 0) ); /* Standard syntax */
 }
 ul {
   font-family: 'Montserrat', sans-serif;
@@ -110,31 +110,31 @@ p {
 }
 #aboutBody {
   text-align: left;
-    clear: left;
-    float: left;
-    width: 100%;
-    overflow: hidden;
+  clear: left;
+  float: left;
+  width: 100%;
+  overflow: hidden;
 }
 #columnContainer {
   float: left;
-    width: 100%;
-    position: relative;
-    right: 50%;
-    border-right: 3px solid rgb(40, 219, 255);
+  width: 100%;
+  position: relative;
+  right: 50%;
+  border-right: 3px solid rgb(40, 219, 255);
 }
 #column1 {
   float: left;
-    width: 46%;
-    position: relative;
-    left: 52%;
-    overflow: hidden;
+  width: 46%;
+  position: relative;
+  left: 52%;
+  overflow: hidden;
 }
 #column2 {
   float: left;
-    width: 46%;
-    position: relative;
-    left: 56%;
-    overflow: hidden;
+  width: 46%;
+  position: relative;
+  left: 56%;
+  overflow: hidden;
 }
 #clearColumns a {
   clear: both;
@@ -157,16 +157,16 @@ p {
   text-shadow: 7px 7px 10px rgb(203, 43, 0);
 }
 .fa-stack {
-    position: relative;
-    display: inline-block;
-    width: 2em;
-    height: 2em;
-    line-height: 2em;
-    vertical-align: middle;
-    margin: 0 20px;
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+  margin: 0 20px;
 }
 .fa-2x {
-    font-size: 1em;
+  font-size: 1em;
 }
 .laptop {
   width: 40%;
@@ -196,7 +196,7 @@ p {
     margin: 0px;
   }
   p {
-    font-size: 12px;
+    font-size: 13px;
     text-align: left;
   }
   p.centered {
@@ -248,6 +248,14 @@ p {
   .projectBody {
     font-size: 10px;
   }
+  .fp-controlArrow.fp-prev {
+    width: 0;
+    border-width: 20px 15px 20px 0;
+  }
+  .fp-controlArrow.fp-next {
+    width: 0;
+    border-width: 20px 0 20px 15px;
+  }
 }
 /* ---------------------------------------- */
 
@@ -264,7 +272,7 @@ p {
     margin: 0px;
   }
   p {
-    font-size: .2em;
+    font-size: .22em;
     text-align: left;
   }
   p.centered {
@@ -282,7 +290,7 @@ p {
   #clearColumns a {
     font-size: .25em;
     padding: 0px;
-    margin: 0px;
+    margin: 10px 0 0 0;
     text-decoration: underline;
   }
   #aboutBody {
@@ -300,12 +308,13 @@ p {
   #column1 {
     float: none;
     width: 100%;
-    padding: 0 0 30px 0;
+    padding: 0 0 20px 0;
     border-bottom: 2px solid rgb(40, 219, 255);
   }
   #column2 {
     float: none;
     width: 100%;
+    padding: 20px 0 0 0;
     left: 52%;
   }
   .laptop {
@@ -315,5 +324,13 @@ p {
   }
   .projectBody {
     font-size: .15em;
+  }
+  .fp-controlArrow.fp-prev {
+    width: 0;
+    border-width: 20px 15px 20px 0;
+  }
+  .fp-controlArrow.fp-next {
+    width: 0;
+    border-width: 20px 0 20px 15px;
   }
 }
