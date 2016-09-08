@@ -177,3 +177,72 @@ p {
   text-align: left;
   font-size: .35em;
 }
+
+/* ---------------------------------------- */
+
+@media only screen and (min-width: 700px) {
+  #dopeIcons {
+    max-height: 3em;
+    margin: .5em;
+  }
+  h1 {
+    font-size: 1.75em;
+  }
+  h5 {
+    font-size: 1em;
+    margin: 0px;
+  }
+  p {
+    font-size: .9em;
+    text-align: left;
+  }
+  p.centered {
+    text-align: center;
+  }
+  #myMenu {
+    height: 11em;
+  }
+  #myMenu a {
+    font-size: 2.8em;
+  }
+  #myMenu li {
+    margin: 1.2em;
+  }
+  #clearColumns a {
+    font-size: .7em;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: underline;
+  }
+  #aboutBody {
+    text-align: left;
+    font-size: .8em;
+    clear: none;
+    float: none;
+    width: 80%;
+    margin: 0 auto;
+  }
+  #columnContainer {
+    float: none;
+    border-right: 0px solid rgb(40, 219, 255);
+  }
+  #column1 {
+    float: none;
+    width: 100%;
+    padding: 0 0 30px 0;
+    border-bottom: 3px solid rgb(40, 219, 255);
+  }
+  #column2 {
+    float: none;
+    width: 100%;
+    left: 52%;
+  }
+  .laptop {
+    width: 90%;
+    float: none;
+    margin: 0 auto;
+  }
+  .projectBody {
+    font-size: .8em;
+  }
+}
