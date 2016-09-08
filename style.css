@@ -182,14 +182,14 @@ p {
 
 @media only screen and (max-width: 1000px) {
   #dopeIcons {
-    max-height: 1em;
-    margin: .1em;
+    max-height: 3em;
+    margin: .5em;
   }
   h1 {
-    font-size: .8em;
+    font-size: 1.5em;
   }
   h5 {
-    font-size: .4em;
+    font-size: 1em;
     margin: 0px;
   }
   p {
@@ -200,7 +200,7 @@ p {
     text-align: center;
   }
   #myMenu {
-    height: 4em;
+    height: 11em;
   }
   #myMenu a {
     font-size: .7em;
@@ -209,7 +209,7 @@ p {
     margin: .1em;
   }
   #clearColumns a {
-    font-size: .7em;
+    font-size: 1em;
     padding: 0px;
     margin: 0px;
     text-decoration: underline;
@@ -243,6 +243,6 @@ p {
     margin: 0 auto;
   }
   .projectBody {
-    font-size: .8em;
+    font-size: .65em;
   }
 }
