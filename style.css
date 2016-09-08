@@ -186,10 +186,10 @@ p {
     margin: .5em;
   }
   h1 {
-    font-size: 1.5em;
+    font-size: 1.75em;
   }
   h5 {
-    font-size: 1em;
+    font-size: .9em;
     margin: 0px;
   }
   p {
@@ -200,16 +200,16 @@ p {
     text-align: center;
   }
   #myMenu {
-    height: 11em;
+    height: 10em;
   }
   #myMenu a {
-    font-size: .7em;
+    font-size: 1em;
   }
   #myMenu li {
-    margin: .1em;
+    margin: .2em;
   }
   #clearColumns a {
-    font-size: 1em;
+    font-size: .8em;
     padding: 0px;
     margin: 0px;
     text-decoration: underline;
