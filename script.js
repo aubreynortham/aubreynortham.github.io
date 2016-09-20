@@ -7,7 +7,7 @@ $(document).ready(function() {
     anchors:['welcome', 'about', 'projects', 'contact'],
     navigation: false,
     navigationPosition: 'right',
-    navigationTooltips: ['introSlide', 'LRN-Quiz', 'Dreamscape', 'ComingSoon'],
+    navigationTooltips: ['introSlide', 'LRN-Quiz', 'Dreamscape', 'FemiList', 'TrumpyCat', 'ComingSoon'],
     showActiveTooltip: false,
     slidesNavigation: true,
     slidesNavPosition: 'bottom',
