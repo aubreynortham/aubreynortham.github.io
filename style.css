@@ -108,8 +108,8 @@ p {
   color: rgb(42, 42, 42);
   text-decoration: none;
 }
-#burnt, #burnt a {
-  color: rgb(186, 56, 0);
+#yellow, #yellow a {
+  color: rgb(255, 236, 112);
   text-decoration: none;
 }
 #aboutBody {
