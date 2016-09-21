@@ -108,6 +108,10 @@ p {
   color: rgb(42, 42, 42);
   text-decoration: none;
 }
+#burnt, #burnt a {
+  color: rgb(186, 56, 0);
+  text-decoration: none;
+}
 #aboutBody {
   text-align: left;
   clear: left;
