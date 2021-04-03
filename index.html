@@ -9,6 +9,7 @@
   <script src="./index.js"></script>
 </head>
 <body>
+  <h1 class="sr-only">Hi world. Just another website here.</h1>
   <svg>
     <defs>
       <clipPath id="clip-txt" clipPathUnits="objectBoundingBox" transform="scale(0.0005208333333333333, 0.000925925925925926)">
@@ -18,10 +19,11 @@
   </svg>
   <div class="outer">
     <div class="inner">
-      <video loop autoplay muted playsinline>
+      <video id="theVid" loop autoplay muted playsinline>
         <source src="./clouds.mp4" type="video/mp4">
       </video>
     </div>
   </div>
+  <button type='button' onclick="controlVideo(this)">enough clouds thx</button>
 </body>
 </html>

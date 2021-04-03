@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  position: relative;
   min-height: 100vh;
   background-color: #c3c7bd;
 }
@@ -11,6 +12,13 @@ svg {
 video {
 	display: block;
 	width: 100%;
+}
+button {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
 }
 .outer {
   height: 100%;
@@ -25,4 +33,20 @@ video {
   height: 100%;
 	-webkit-clip-path: url(#clip-txt);
 	clip-path: url(#clip-txt);
+}
+.inner::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: pink;
+}
+.sr-only {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
